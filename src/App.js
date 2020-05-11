@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import FlowerCarousel from './components/FlowerCarousel/FlowerCarousel';
+
 class App extends Component {
   state = {
     flowerData: {},
@@ -19,14 +21,18 @@ class App extends Component {
       })
   }
 
-  
-
+  onFlowerSelection = (newFlowerSelection) => {
+    console.log('New flower: ', newFlowerSelection)
+    this.setState({
+      selectedFlower: newFlowerSelection
+    })
+  }
 
   render() {
     return (
       <div className="App">
-
-
+        <h1>Flower Carousel</h1>
+        <FlowerCarousel/>
 
 
       </div>
