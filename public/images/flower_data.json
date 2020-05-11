@@ -1,0 +1,21 @@
+{
+    "Foxglove": {
+        "botanical_name": "Digitalis",
+        "family": "Plantaginaceae",
+        "order": "Lamiales",
+        "image": "https://www.gardenia.net/storage/app/public/uploads/images/detail/Vo1m25SQYY8XUG5eML9mKlp8nbjXOF3qjRHQG1Ev.jpeg"
+    },
+    "Holly Hocks": {
+        "botanical_name": "Alcea",
+        "family": "Malvaceae",
+        "order": "Malvales",
+        "image": "https://www.gardendesign.com/pictures/images/900x705Max/dream-team-s-portland-garden_6/alcea-rosea-hollyhock-pink-flowers-shutterstock-com_12837.jpg"
+    },
+    "Borage": {
+        "botanical_name": "Borago officinalis",
+        "family": "Boraginaceae",
+        "order": "Lamiales",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91abCp0XfXL._AC_SL1500_.jpg"
+    }
+
+}
