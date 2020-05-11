@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import FlowerCarousel from './components/FlowerCarousel/FlowerCarousel';
+import FlowerInfo from './components/FlowerInfo/FlowerInfo';
 
 class App extends Component {
   state = {
@@ -32,7 +33,17 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Flower Carousel</h1>
-        <FlowerCarousel/>
+        {
+          Object.entries(this.state.flowerData).map(([name, info]) => (
+            <FlowerInfo
+              title={name}
+              botanicalName={info.botanical_name}
+              family={info.family}
+              order={info.order}
+              flowerImage={info.image}
+            />
+          ))
+        }
 
 
       </div>
